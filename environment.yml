@@ -1,0 +1,21 @@
+name: DeepDLT
+channels:
+  - pytorch
+  - defaults
+dependencies:
+  - python=3.12
+  - numpy
+  - pandas
+  - matplotlib
+  - scikit-learn
+  - scikit-image
+  - cudatoolkit
+  - pillow
+  - openpyxl
+  - pip
+  - pip:
+    - torch
+    - torchvision
+    - torchsummary
+    - opencv-python
+    - tqdm
